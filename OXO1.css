@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+}
+
+.game-container {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.sor div {
+    padding: 10px;
+    border: 2px solid #333;
+    height: 50px;
+    width: 50px;
+    float: left;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.sor div:hover {
+    background-color: #e0e0e0;
+}
+
+.sor {
+    clear: both;
+}
+
+.status {
+    margin: 20px 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.restart-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
