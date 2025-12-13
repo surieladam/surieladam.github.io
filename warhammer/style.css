@@ -6,12 +6,6 @@ body{
     text-align:center;
 }
 
-header, nav, main, section, aside, footer {
-    max-width:1000px;
-    margin-left:auto;
-    margin-right:auto;
-}
-
 header{
     background:#222;
     padding:20px;
@@ -19,10 +13,12 @@ header{
 }
 
 nav{
-    background:#333;
+    background:darkgray;
     padding:10px;
     text-align: center;
+    color:black;
 }
+
 
 nav ul {
     list-style:none;
@@ -41,10 +37,19 @@ nav a{
     border-radius: 10px;
 }
 
-nav {
-    background:darkgray;
-    color:black;
+
+nav a.active {
+    background-color: #800000;
+    color: white;
+    font-weight: bold;
 }
+
+nav a:hover {
+    background-color: #555;
+    transform: scale(1.05);
+    transition: all 0.3s;
+}
+
 
 main{
     padding:20px;
@@ -83,6 +88,12 @@ img{
     border-radius:8px;
 }
 
+img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
 table{
     text-align: center;
 }
@@ -92,3 +103,4 @@ table image{
     height: auto;
     height:auto;
 }
+
