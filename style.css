@@ -1,7 +1,24 @@
-h3 {
-    margin:0;
-    font-family: Arial, sans-serif;
-    background:#111;
-    color:white;
-    text-align: center;
+
+.project-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.project-preview-container {
+    overflow: hidden;
+    height: 300px;
+    border: 2px solid #333;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.project-preview {
+    width: 125%;
+    height: 375px;
+    border: none;
+    pointer-events: none;
+    transform: scale(0.8);
+    transform-origin: top left;
 }
