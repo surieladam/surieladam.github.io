@@ -3,19 +3,17 @@ body{
     font-family: Arial, sans-serif;
     background:#111;
     color:white;
-    text-align:center;
+    text-align: center;
 }
 
 header{
     background:#222;
     padding:20px;
-    text-align:center;
 }
 
 nav{
     background:darkgray;
     padding:10px;
-    text-align: center;
     color:black;
 }
 
@@ -26,7 +24,6 @@ nav ul {
     margin:0;
     display:flex;
     gap:10px;
-    justify-content:center; 
 }
 
 nav a{
@@ -37,24 +34,11 @@ nav a{
     border-radius: 10px;
 }
 
-
-nav a.active {
-    background-color: #800000;
-    color: white;
-    font-weight: bold;
-}
-
-nav a:hover {
-    background-color: #555;
-    transform: scale(1.05);
-    transition: all 0.3s;
-}
-
-
 main{
     padding:20px;
     background:#1a1a1a;
-    margin:20px auto; 
+    margin:20px auto;
+    max-width:1100px;
 }
 
 section{
@@ -73,7 +57,6 @@ aside{
 }
 
 footer{
-        text-align:center;
         padding:15px;
         background:#333;
         margin-top:20px;
@@ -88,19 +71,8 @@ img{
     border-radius:8px;
 }
 
-img:hover {
-    transform: scale(1.05);
-    transition: transform 0.3s;
-    cursor: pointer;
-}
-
 table{
-    text-align: center;
+    width:100%;
+    border-collapse:collapse;
+    margin-top:10px;
 }
-
-table image{
-    width:50px;
-    height: auto;
-    height:auto;
-}
-
