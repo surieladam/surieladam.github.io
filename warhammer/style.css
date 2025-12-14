@@ -28,7 +28,7 @@ nav ul {
     justify-content: center;
 }
 
-nav.hover{
+nav a:hover{
     background-color: #555;
     color: white;
     transform: scale(1.05);
